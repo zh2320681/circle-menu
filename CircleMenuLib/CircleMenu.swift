@@ -171,6 +171,10 @@ open class CircleMenu: UIButton {
     tapRotatedAnimation(0.3, isSelected: false)
   }
   
+  open func showButtons(){
+        self.onTap()
+   }
+  
   /**
    Check is sub buttons showed
    */
